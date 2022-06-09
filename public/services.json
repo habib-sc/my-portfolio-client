@@ -1,0 +1,23 @@
+[
+    {
+        "_id": 1,
+        "name": "PSD or Figma to HTML",
+        "description": "I will make your custom design into a Html Template",
+        "technology": ["HTML", "CSS", "Javascript"],
+        "img": "https://i.ibb.co/X7mpcRk/html.png"   
+    },
+    {
+        "_id": 2,
+        "name": "Frontend Development With React",
+        "description": "I will make Frontend for your rquired design and expectation",
+        "technology": ["Javascript", "React.js", "Firebase", "Tailwindcss"],
+        "img": "https://i.ibb.co/vkF92gy/reactjs.webp"   
+    },
+    {
+        "_id": 3,
+        "name": "MERN Stack Development",
+        "description": "I will develop a complete website or web application",
+        "technology": ["React", "Node.js", "Express.js", "MongoDB"],
+        "img": "https://i.ibb.co/BtN1m3r/mern.webp"   
+    }
+]
