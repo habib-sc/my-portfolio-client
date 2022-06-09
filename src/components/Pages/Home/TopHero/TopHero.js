@@ -103,9 +103,9 @@ const TopHero = () => {
                         <div className='text-white font-semibold order-last md:order-first'>
                             <h1 className='text-6xl'>Hello! I am</h1>
                             <h1 className='text-6xl my-2'>Md. Habibur Rahman</h1>
-                            <h3 className='text-3xl'>Junior MERN Stack Developer</h3>
+                            <h3 className='text-3xl'>Frontend Developer</h3>
                             <div className='mt-8'>
-                                <button className='btn btn-primary mr-5'>Download Resume</button>
+                                <a href='/Habibur-Rahman-Frontend-Developer-Resume.pdf' className='btn btn-primary mr-5'>Download Resume</a>
                                 <button className='btn btn-accent mr-5'>Hire Me</button>
                             </div>
                         </div>
