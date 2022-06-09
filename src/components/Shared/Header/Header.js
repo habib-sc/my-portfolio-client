@@ -1,23 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Header = () => {
+    const [navScroll, setNavScroll] = useState(false);
+
+    // Nav backgoround change on scroll 
+    const setNavBg = () => {
+        if(window.scrollY >= 100) {
+            setNavScroll(true);
+        }
+        else{
+            setNavScroll(false);
+        }
+    }
+    window.addEventListener("scroll", setNavBg);
+
     return (
-        <header className='bg-transparent border-b border-b-gray-600'>
-            <div class="container mx-auto navbar text-white">
-                {/* <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-3xl">Md. Habibur Rahman</a>
-                </div>
-                <div class="flex-none">
-                    <ul class="menu menu-horizontal p-0">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Skills</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Contact</a></li>
-                    </ul>
-                </div> */}
-
-
+        <header className={`sticky top-0 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparent text-white border-b border-b-gray-600'}`}>
+            <div class="container mx-auto navbar">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -31,7 +30,7 @@ const Header = () => {
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-3xl">Md. Habibur Rahman</a>
+                    <a class="btn btn-ghost normal-case text-3xl">HABIB</a>
                 </div>
 
                 <div class="navbar-end hidden lg:flex">

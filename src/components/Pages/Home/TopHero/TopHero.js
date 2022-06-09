@@ -100,13 +100,13 @@ const TopHero = () => {
             <div className='container mx-auto px-4'>
                 <div className='h-screen flex items-center'>
                     <div className='flex flex-wrap justify-between items-center w-full -mt-32'>
-                        <div className='text-white order-last md:order-first'>
+                        <div className='text-white font-semibold order-last md:order-first'>
                             <h1 className='text-6xl'>Hello! I am</h1>
-                            <h1 className='text-6xl'>Md. Habibur Rahman</h1>
+                            <h1 className='text-6xl my-2'>Md. Habibur Rahman</h1>
                             <h3 className='text-3xl'>Junior MERN Stack Developer</h3>
                             <div className='mt-8'>
-                                <button className='btn btn-primary mr-5'>Hire Me</button>
                                 <button className='btn btn-primary mr-5'>Download Resume</button>
+                                <button className='btn btn-accent mr-5'>Hire Me</button>
                             </div>
                         </div>
                         <div class="order-first md:order-last">
