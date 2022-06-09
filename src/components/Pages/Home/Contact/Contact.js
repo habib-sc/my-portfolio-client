@@ -3,7 +3,7 @@ import contactImg from '../../../../assets/images/constact.png';
 
 const Contact = () => {
     return (
-        <div className='container mx-auto px-4'>
+        <div id='contact' className='container mx-auto px-4'>
             <div className='border rounded-xl shadow-xl p-4 mt-16'>
                 <h2 className='text-4xl font-semibold text-center mt-5 mb-10'>Get In Touch</h2>
                 <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>

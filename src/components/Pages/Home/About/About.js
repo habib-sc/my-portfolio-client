@@ -4,7 +4,7 @@ import aboutImg from '../../../../assets/images/about-me.png';
 const About = () => {
 
     return (
-        <div className='container mx-auto px-4 mt-10'>
+        <div id='about' className='container mx-auto px-4 mt-10'>
             <div className='flex flex-wrap justify-between items-center w-full'>
                 <div class="">
                     <img src={aboutImg} class="lg:max-w-lg md:max-w-md sm:max-w-sm" alt='' />
