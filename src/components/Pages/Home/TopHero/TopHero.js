@@ -99,7 +99,7 @@ const TopHero = () => {
             <Header></Header>
             <div className='container mx-auto px-4'>
                 <div className='h-screen flex items-center'>
-                    <div className='flex flex-wrap justify-between items-center w-full -mt-32'>
+                    <div className='flex flex-wrap justify-between items-center w-full'>
                         <div className='text-white font-semibold order-last md:order-first'>
                             <h1 className='text-6xl'>Hello! I am</h1>
                             <h1 className='text-6xl my-2'>Md. Habibur Rahman</h1>

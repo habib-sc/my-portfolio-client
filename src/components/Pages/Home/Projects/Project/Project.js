@@ -12,7 +12,7 @@ const Project = ({project}) => {
                         </h2>
                     </div>
                     <div>
-                        <a href={project.liveLink} className="bg-blue-200 text-center rounded text-primary font-semibold mt-5 px-3 py-1 border-primary" target="_blank" rel="noreferrer">Live Link</a>
+                        <a href={project.liveLink} className="bg-blue-200 text-center rounded-full text-primary font-semibold mt-5 px-3 py-1 border-primary" target="_blank" rel="noreferrer">Live Link</a>
                     </div>
                 </div>
                 <p>{project.description}</p>

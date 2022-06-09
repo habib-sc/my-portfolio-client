@@ -12,6 +12,7 @@ const About = () => {
                 <div className=''>
                     <h1 className='text-4xl font-semibold mb-2'>About Me</h1>
                     <p className='text-2xl lg:max-w-lg'>I am a web developer experties in React.js, Tailwindcss, Bootstrap, Daisy UI, HTML, CSS and comfortable in Node.js, Express.js, MongoDB, javascript. I am familiar with Python, Django.</p>
+                    <button className='btn btn-primary mt-5 btn-sm'>My Projects</button>
                 </div>
             </div>
         </div>
