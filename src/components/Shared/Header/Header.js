@@ -15,7 +15,7 @@ const Header = () => {
     window.addEventListener("scroll", setNavBg);
 
     return (
-        <header className={`sticky top-0 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparent text-white border-b border-b-gray-600'}`}>
+        <header className={`fixed top-0 w-full z-20 font-semibold ${navScroll ? 'bg-base-100 shadow-xl' : 'bg-transparent text-white border-b border-b-gray-600'}`}>
             <div class="container mx-auto navbar">
                 <div class="navbar-start">
                     <div class="dropdown">
