@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Blogs from './components/Pages/Home/Blogs/Blogs';
 import Home from './components/Pages/Home/Home';
@@ -17,6 +19,7 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/project/:id' element={<ProjectDetail project={project}></ProjectDetail>}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
