@@ -5,7 +5,7 @@ import aboutImg from '../../../../assets/images/habibur-rahman-dev7.png';
 const About = () => {
 
     return (
-        <div id='about' className='container mx-auto px-4 mt-16'>
+        <div id='about' className='container mx-auto px-4 pt-24'>
             <div className='flex flex-wrap justify-between items-center w-full'>
                 <div class="flex-1">
                     <img src={aboutImg} class="lg:max-w-lg md:max-w-md sm:max-w-sm border shadow-lg rounded-lg" alt='' />
