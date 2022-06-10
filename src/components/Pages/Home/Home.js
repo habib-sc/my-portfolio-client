@@ -6,14 +6,14 @@ import Projects from './Projects/Projects';
 import Services from './Services/Services';
 import TopHero from './TopHero/TopHero';
 
-const Home = ({setProject}) => {
+const Home = () => {
 
     return (
         <div>
             <TopHero></TopHero>
             <About></About>
             <Services></Services>
-            <Projects setProject={setProject}></Projects>
+            <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
         </div>

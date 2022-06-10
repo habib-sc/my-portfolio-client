@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Project from './Project/Project';
 
-const Projects = ({setProject}) => {
+const Projects = () => {
 
     const [projects, setProjects] = useState([]);
 
@@ -17,7 +17,7 @@ const Projects = ({setProject}) => {
 
             <div className='grid grid-cols-1, md:grid-cols-2, lg:grid-cols-3 gap-16'>
                 {projects &&
-                    projects.map(project => <Project key={project._id} project={project} setProject={setProject}></Project>)
+                    projects.map(project => <Project key={project._id} project={project}></Project>)
                 }
             </div>
 

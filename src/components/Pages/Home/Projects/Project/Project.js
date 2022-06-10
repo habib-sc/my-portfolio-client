@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Project = ({project, setProject}) => {
-
-    setProject(project);
+const Project = ({project}) => {
     return (
         <div class="card bg-base-100 shadow-xl border">
             <figure className='p-5'><img src={project.img} alt="service" className='rounded-lg border'/></figure>

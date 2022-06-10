@@ -17,10 +17,10 @@ const ProjectDetail = () => {
     }, [id]);
 
     return (
-        <div className='h-[30vh] bg-secondary'>
+        <div className='h-[40vh] bg-secondary'>
             <Header></Header>
             <div className='container mx-auto px-4'>
-                <div className='h-[30vh] flex justify-center items-center pt-8'>
+                <div className='h-[40vh] flex justify-center items-center pt-8'>
                     <h3 className='text-3xl text-white'>Project Details of {project.name}</h3>
                 </div>
                 
