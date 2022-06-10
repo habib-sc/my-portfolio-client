@@ -5,7 +5,9 @@
         "description": "This is a car parts manufacturer website. Where user can order parts and admin can manage order from admin panel.",
         "technology": ["React.js", "Express.js", "Node.js", "MongoDB", "HTML", "CSS", "Javascript", "Tailwindcss", "Daisy UI", "Rest API", "Axios", "React Query"],
         "liveLink": "https://nexencarparts.web.app/",
-        "img": "https://i.ibb.co/WFCxSRV/nexencarparts.png"   
+        "img": "https://i.ibb.co/WFCxSRV/nexencarparts.png",
+        "img2": "https://i.ibb.co/8rqNrSc/nexen-1.png",   
+        "img3": "https://i.ibb.co/TkVjQ04/nexen-3.png"   
     },
     {
         "_id": 2,
@@ -13,7 +15,9 @@
         "description": "This is a stock management applicaiton for furniture store. using this app user can manage stock easily.",
         "technology": ["React.js", "Express.js", "Node.js", "MongoDB", "HTML", "CSS", "Javascript", "Tailwindcss", "Rest API"],
         "liveLink": "https://furnitory-cc593.web.app/",
-        "img": "https://i.ibb.co/MnhdQ74/furnitory.png"   
+        "img": "https://i.ibb.co/MnhdQ74/furnitory.png",
+        "img2": "https://i.ibb.co/BGbG84n/furnitory-2.png",   
+        "img3": "https://i.ibb.co/9h3bj1s/furnitory-3.png"      
     },
     {
         "_id": 3,
@@ -21,6 +25,8 @@
         "description": "This is a Travel guide website. User can book a spot with guide.",
         "technology": ["React.js", "HTML", "CSS", "Javascript", "Tailwindcss", "Rest API"],
         "liveLink": "https://travego-70ecd.web.app/",
-        "img": "https://i.ibb.co/xhhw8Yv/travego.png"   
+        "img": "https://i.ibb.co/xhhw8Yv/travego.png",
+        "img2": "https://i.ibb.co/XtfxPPy/travego-2.png",   
+        "img3": "https://i.ibb.co/BznZ9Vm/travego-3.png"      
     }
 ]
